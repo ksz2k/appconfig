@@ -4,10 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "appcfg"
-  spec.version       = '0.2.0'
+  spec.version       = "0.2.0"
+  spec.authors       = ["tmikoss"]
+  spec.email         = [""]
   spec.description   = "A gem for centralizing different sources of application configuration data. Supports YAML files, ActiveRecord models and simple hashes as data sources."
+  spec.summary       = %q{A gem for centralizing different sources of application configuration data.}
   spec.homepage      = ""
-  spec.summary       = "A gem for centralizing different sources of application configuration data"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
