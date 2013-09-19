@@ -5,7 +5,7 @@ require 'camanjs/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "appcfg"
-  spec.version       = 0.2.0
+  spec.version       = '0.2.0'
   spec.description   = "A gem for centralizing different sources of application configuration data. Supports YAML files, ActiveRecord models and simple hashes as data sources."
   spec.homepage      = ""
   spec.license       = "MIT"
