@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = '0.2.0'
   spec.description   = "A gem for centralizing different sources of application configuration data. Supports YAML files, ActiveRecord models and simple hashes as data sources."
   spec.homepage      = ""
+  spec.summary       = "A gem for centralizing different sources of application configuration data"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
