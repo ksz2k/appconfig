@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = [""]
   spec.description   = "A gem for centralizing different sources of application configuration data. Supports YAML files, ActiveRecord models and simple hashes as data sources."
   spec.summary       = %q{A gem for centralizing different sources of application configuration data.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tmikoss/appconfig"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
